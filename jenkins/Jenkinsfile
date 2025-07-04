@@ -19,5 +19,10 @@ pipeline {
                 echo "Delivering the package"
             }
         }
+        stage('Complete') {
+            steps {
+                echo "Job complete!"
+            }
+        }
     }
 }
